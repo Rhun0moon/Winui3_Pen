@@ -244,14 +244,14 @@ void winrt::Winui3_Pen::implementation::MainWindow::VisibleClick(winrt::Windows:
     if (Visiblebtn)
     {
         Visiblebtn = FALSE;
-        Button2().Label(L"Disable");
+        Button2().Label(L"보이기");
 
         colorPanel().Visibility(Visibility::Collapsed);
     }
     else
     {
         Visiblebtn = TRUE;
-        Button2().Label(L"Enable");
+        Button2().Label(L"감추기");
 
         colorPanel().Visibility(Visibility::Visible);
     }

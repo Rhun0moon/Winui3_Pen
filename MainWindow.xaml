@@ -44,7 +44,7 @@
             Draw="CanvasControl_Draw"  ClearColor="LightBlue"/>
         <AppBarToggleButton Grid.Column="1" Grid.Row="0"
                 x:Name="Button2" Icon="Shuffle" IsChecked="True"
-                Label="Enable" Click="VisibleClick"/>
+                Label="보이기" Click="VisibleClick"/>
         <Border Grid.Column="1" Grid.Row="1" x:Name="colorPanel" Visibility="Visible">
             <ColorPicker ColorChanged="ColorPicker_ColorChanged"
             ColorSpectrumShape="Ring"
